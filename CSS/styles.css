@@ -1,0 +1,90 @@
+body{
+    background-color: lightgray;
+}
+
+img {
+    max-width: 75px;
+    margin-bottom: 0;
+}
+
+main{
+    min-height: 720px;
+}
+
+nav{
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+nav ul{
+    width: 150px;
+    float: left;
+}
+
+span{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+}
+
+.menu-list {
+    visibility: hidden;
+    opacity: 0;
+    width: 150px;
+    margin-top: -5px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    list-style: none;
+    padding: 1px;
+    background-color: lightgray;
+    transition: all 0.3s linear;
+}
+
+button {
+    width: 100%;
+    margin: 0em;
+    padding: 0.75em;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    transition: all 0.3s linear;
+}
+
+.lightgray {
+    background-color: lightgray;
+    color: black;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.pink {
+    background-color: pink;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.orange {
+    background-color: orange;
+    color: black;
+}
